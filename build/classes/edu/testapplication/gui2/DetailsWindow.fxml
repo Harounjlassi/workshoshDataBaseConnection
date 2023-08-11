@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/20.0.1" fx:controller="edu.testapplication.gui2.DetailsWindowController">
+   <children>
+      <Label layoutX="125.0" layoutY="113.0" text="ID" />
+      <Label layoutX="125.0" layoutY="157.0" text="NOM" />
+      <Label layoutX="125.0" layoutY="200.0" text="PRENOM" />
+      <TextField fx:id="tfID" layoutX="225.0" layoutY="109.0" />
+      <TextField fx:id="tfNOM" layoutX="226.0" layoutY="153.0" />
+      <TextField fx:id="tfPRENOM" layoutX="226.0" layoutY="196.0" />
+   </children>
+</AnchorPane>
